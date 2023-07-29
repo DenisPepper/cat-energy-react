@@ -1,0 +1,4 @@
+.link--active {
+    cursor: default;
+    pointer-events: none;
+}

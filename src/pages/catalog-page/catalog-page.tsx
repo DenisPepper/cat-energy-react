@@ -1,3 +1,7 @@
+import {Header} from "../../components/header/header";
+
 export const CatalogPage = () => {
-    return (<div>catalog page</div>);
+    return (
+        <Header />
+    );
 }

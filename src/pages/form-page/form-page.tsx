@@ -1,6 +1,6 @@
 import {Header} from "../../components/header/header";
 
-export const DevPage = () => {
+export const FormPage = () => {
     return (
         <Header />
     );

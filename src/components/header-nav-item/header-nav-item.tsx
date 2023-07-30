@@ -13,7 +13,7 @@ export const HeaderNavItem = (props: HeaderNavItemProps) => {
     return (
         <li className={'navbar__item'}>
             <a
-                className={isCurrent ? 'link--active' : 'link'}
+                className={isCurrent ? 'link link--active' : 'link'}
                 href={path}
                 aria-current= {isCurrent ? 'page' : 'false'}
             >

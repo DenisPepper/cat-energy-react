@@ -1,6 +1,6 @@
 *,
-*:after,
-*:before {
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -35,4 +35,36 @@
 
 .card__image {
     align-self: flex-end;
+}
+
+.nutrition-concept__point {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+}
+
+.nutrition-concept__point::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nutrition-concept__point--natural::after {
+    background-image: url("./img/icon-leaf.svg");
+}
+
+.nutrition-concept__point--powdered::after {
+    background-image: url("./img/icon-cap.svg");
+}
+
+.nutrition-concept__point--substituted::after {
+    background-image: url("./img/icon-eat.svg");
+}
+
+.nutrition-concept__point--fast::after {
+    background-image: url("./img/icon-clock.svg");
 }

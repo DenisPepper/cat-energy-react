@@ -14,7 +14,7 @@ export const Addition = (props: AdditionProps) => {
     const {addition: {title, unit, price}} = props;
 
     return (
-        <li className={'related__item'}>
+        <li className={'related-product__item'}>
             <article className="addition">
                 <h3 className="addition__title">{title}</h3>
                 <p className='addition__unit'>{unit}</p>

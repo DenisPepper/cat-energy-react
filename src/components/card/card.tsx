@@ -18,7 +18,7 @@ export const Card = (props: CardProps) => {
     const {card: {title, image, weight, taste, price}} = props;
 
     return (
-        <li className={'card__item'}>
+        <li className={'product__item'}>
             <article className="card">
                 <h3 className="card__title">{title}</h3>
                 <div className="card__image-wrapper">

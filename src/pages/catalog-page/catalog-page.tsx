@@ -1,11 +1,13 @@
 import {Header} from "../../components/header/header";
 import {Title} from "../../components/title/title";
+import {Catalog} from "../../components/catalog/catalog";
 
 export const CatalogPage = () => {
     return (
         <>
             <Header/>
-            <Title text={''} mode={"h1"}/>
+            <Title text={'Каталог продукции'} mode={"h1"}/>
+            <Catalog/>
         </>
     );
 }

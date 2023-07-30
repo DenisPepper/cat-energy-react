@@ -1,3 +1,5 @@
+import {Button} from "../button/button";
+
 export type Taste = 'Курица' | 'Рыба' | 'Гречка' | 'Рис';
 
 export interface Card {
@@ -18,7 +20,7 @@ export const Card = (props: CardProps) => {
     return (
         <li className={'card__item'}>
             <article className="card">
-                <h2 className="card__title">{title}</h2>
+                <h3 className="card__title">{title}</h3>
                 <div className="card__image-wrapper">
                     <img
                         className="card__image"
@@ -37,6 +39,7 @@ export const Card = (props: CardProps) => {
                     <dt>Цена</dt>
                     <dd>{price}</dd>
                 </dl>
+                <Button text={'Заказать'} type='button'/>
             </article>
         </li>
     );

@@ -1,4 +1,5 @@
 import {Card} from "./components/card/card";
+import {Addition} from "./components/addition/addition";
 
 export const cards: Card[] = [
     {
@@ -50,4 +51,11 @@ export const cards: Card[] = [
         taste: "Рис",
         price: 500,
     },
+];
+
+export const additions: Addition[] = [
+    {title: 'Сахарозаменитель', unit: '1 упаковка (100 г)', price: 200},
+    {title: 'питьевая вода', unit: '5 литров', price: 50},
+    {title: 'молоко', unit: '1 литр', price: 100},
+    {title: 'витамины', unit: '1 упаковка (30 г)', price: 300},
 ];
